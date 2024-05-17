@@ -39,7 +39,7 @@ public class FileSystemController {
 
         }
         System.out.println(list.stream().mapToInt(FileStructure::getSize).sum());
-     System.out.println(hm.entrySet().stream().sorted(Map.Entry.<Integer,Integer>comparingByValue().reversed()).collect(Collectors.toList()));
+     System.out.println(hm.entrySet().stream().sorted(Map.Entry.<Integer,Integer>comparingByValue().reversed()).limit(3).collect(Collectors.toList()));
 
 
 
