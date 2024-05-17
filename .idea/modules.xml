@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FileReportGenerator.iml" filepath="$PROJECT_DIR$/FileReportGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LLDDesignProblems.iml" filepath="$PROJECT_DIR$/LLDDesignProblems.iml" />
     </modules>
   </component>
 </project>
